@@ -1,0 +1,461 @@
+
+  @media  screen and (min-width: 980px) and (max-width: 1100px) {
+    .login .d-n {
+      display: none;
+    }
+    .slesh{
+      display: none;
+    }
+    .contact {
+      font-size: 13px;
+    }
+    .para span{
+      padding:4px;
+    }
+    .para p {
+      font-size: 13px;
+    }
+    .social-icon i{
+      font-size: 16px;
+    }
+      .product .price span{
+                          margin: 0 1px 0 0;
+                        }
+      .product .price {
+                      font-size:13px ;
+                    }
+      .rating i{
+                font-size:9px ;
+              }
+  }
+  
+  @media  screen and (min-width: 769px) and (max-width:992px) {
+    .login .d-n {
+                display: none;
+              }
+    .slesh {
+            display: none;
+          }
+    .header-top {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding: 0px 10px;
+                flex-wrap: wrap;
+              }
+      .contact {
+              font-size: 13px;
+            }
+      .social-icon{
+                  display:none;
+                }
+      .para span{
+                padding:4px;
+              }
+      .para p {
+                font-size: 13px;
+              }
+      .social-icon i{
+                    font-size: 16px;
+                  }
+    .banner-text h3 {
+                    font-size: 17px;
+                    font-weight: 600;
+                    margin:10px 0;
+                  }
+    .banner-text h3 span {
+                    color: #BA933E;
+                  }
+    .banner-text h2 {
+                    font-size: 25px;
+                    font-weight: 700;
+                    margin:0px;
+                    padding:0px;
+                  }
+    .banner-text p {
+                    font-size: 14px;
+                    opacity: .6;
+                  }
+    .shop-area .banner-text h2{
+                    margin:10px 0px;
+                  }
+    .rating i {
+              font-size: 9px;
+              cursor: pointer;
+            }
+    .product .price {
+              font-size: 13px;
+            }
+    .product{
+              margin:0 0 30px;
+            }
+    /************************************* Footer Query Start *************************************/
+    .footer{
+            flex-wrap:wrap;
+          }
+    .footer-single-column {
+            flex-basis: 50%;
+            margin-top: 30px;
+        }
+
+        /************************************* single Product *************************************/
+        .product-box.box1 {
+          padding-right: 50px;
+        }
+        .product-box.box2 p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        .product-box.box2 ul li {
+          line-height: 18px;
+          font-size: 13px;
+        }
+        .quantity {
+          padding: 4px 0px;
+        }
+        .icon-rating {
+          padding: 10px 0px;
+        }
+        .single-btn {
+          padding: 10px 5px;
+        }
+        .reviews {
+          font-size: 13px;
+          color: #3b3939;
+        }
+
+    /* ===================== blog page content ================= */
+    .blog-right-content .single-blog {
+      flex-basis: 100%;
+    }
+    .blog-right{
+      width:60%;
+    }
+          
+  }
+@media screen and (max-width: 768px ) {
+    .login .d-n {
+      display: none;
+    }
+    .slesh {
+      display: none;
+    }
+    .header-top {
+      text-align: center;
+    }
+    .header-top {
+      display: block;
+    }
+    .contact {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      display: none;
+    }
+    .social-icon{
+      display:none;
+    }
+    .slider-content h1{
+                  font-size:30px ;
+                }
+    .banner-area{
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  flex-direction: column;
+                }
+    .hero-slider img{
+                  height:50vh;
+                }
+    .shop img {
+                width: 35%;
+                height: 80%;
+              }
+              .shop .banner-text {
+                left: 35%;
+            }
+    .shop .banner-text h3 {
+                      font-size: 15px;
+                    }
+    .banner-text h2 {
+                    font-size: 24px;
+                  }
+    .banner-text p {
+                font-size: 12px;
+              }
+    .shop .btn{
+              width:130px;
+              font-size:14px;
+            }
+    .shop{
+          height:250px;
+        }
+  .owl-controls .owl-prev,
+  .owl-controls .owl-next{
+                      top:120px;
+                      }
+    /************************************ Advantages Area  ************************************/
+    .adventages{
+                  flex-direction: column;
+                }
+    .single-box:nth-child(1), .single-box:nth-child(2) {
+                  border:none;
+                }
+    .single-box{
+                flex-basis: 100%;
+                margin-top:10px;
+              }
+    /************************************** Blog Area **************************************/
+    .single-blog {
+                  flex-basis: 48% ;
+                  margin-top:20px ;
+                }
+    .single-blog h2 a{
+                    font-size:18px;
+                  }
+    /********************************** Footer Query Start **********************************/
+    .footer{
+            flex-wrap:wrap;
+          }
+  .footer-single-column {
+                      flex-basis: 50%;
+                      margin-top: 30px;
+                  }    
+  /**************************************** Start Single Product Area ****************************************/
+  .single-product-box {
+    display: block;
+  }
+  .product-box.box2 {
+    margin-top: 35px;
+  }
+  .product-box.box1 {
+    text-align: center;
+    padding-right:0px;
+  }
+  /*=================================== MEDIA QUERY FOR ABOUT PAGE  ======================== */
+  .about-header, .contact-header{
+    height:50vh;
+  }
+  .about-header h1,
+  .contact-header h1{
+    font-size:30px;
+  }
+    .about-text {
+              flex-basis: 100%;
+              margin-right: 0%;
+              margin-top:10px;
+            }
+   /*=================================== MEDIA QUERY FOR CONTACT PAGE  ======================== */
+  .contact-single-box {
+                flex-basis: 100%;
+                margin: 1%;
+              }
+  .maps iframe{
+    height:40vh;
+  }
+
+  /* ====================== MEDIA QUERY FOR BRAND PAGE ==================== */
+  .brand-product{
+    display: block;
+  }
+  .brand-left{
+    flex-basis: 100%;
+  }
+  .brand-right{
+    flex-basis:100%;
+  }
+  /* ======================== MEIDA QUERY FOR BLOG PAGE ================= */
+  .blog-left{
+    width:100%;
+  }
+  .blog-right{
+    float: left;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px ) {
+    /**************************************** Blog Area ****************************************/
+    .single-blog {
+                flex-basis: 100% ;
+                margin-top:20px ;
+              }
+    .footer{
+            justify-content: center;
+          }
+    .footer-single-column {
+                  flex-basis: 100%;
+                  margin-top: 30px;
+              }  
+    .title{
+            font-size:22px;
+          }
+    .middle-text{
+                font-size:14px;
+              }
+    .shop img {
+            width: 35%;
+            height: 77%;
+        }
+        .shop .banner-text {
+            left: 35%;
+        }
+        .banner-text h2 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .shop .banner-text h3 {
+            font-size: 13px;
+        }
+        /************************************ Our Form Area ************************************/
+        .form-area {
+          width:100%;
+          box-sizing: border-box;
+        }
+        .log-title{
+          font-size: 25px;
+        }
+  /* =============== MEDIA QUERY FOR COMMENT ================ */
+  .form-box1 {
+    display: block;
+    width: 100%;
+  }
+  .form-box2 {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+  /******************************** MEIDA QUERY FOR BLOG PAGE ********************************/
+  .blog-right-content .single-blog {
+    flex-basis: 100%;
+    margin: 2%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width:500px) {
+    .logo{
+      display: none;
+    }
+    .para span {
+              padding: 4px;
+              font-size: 12px;
+              cursor: pointer;
+            }
+      .para p {
+            font-size: 16px;
+          }
+    .slider-content h1 {
+                        font-size: 22px ;
+                    }
+    .slider-content p {
+                        font-size: 17px ;
+                    }
+    .banner-text h3 {
+                    font-size: 14px;
+                    font-weight: 600;
+                    margin: 13px 0px;
+                  }
+    .banner-text h2 {
+                  font-size: 22px;
+                  margin: 0px;
+                  line-height: 26px;
+                }
+    .flex-column-1{
+                  flex-wrap: wrap;
+                }
+    .flex-single-column.flex-single-column1,
+    .flex-single-column.flex-single-column2{
+                flex-basis:100%;
+                margin-top:20px;
+              }
+    .img-related{
+                height:250px;
+              }
+              .subcribe input[type="email"] {
+                width:100%;
+                margin-bottom:20px;
+              }
+    .menu-btn{
+        width:50px;
+        font-size:14px;
+    }
+    /************************************** Start Login Area **************************************/
+    .form-area .box a:last-child{
+      display: block;
+      padding:15px 0px;
+    }
+}
+  @media screen and (max-width: 400px) {
+    .contact {
+            display: none;
+            text-align: center;
+            }
+            .contact .phone{
+              padding:8px 0px;
+            }
+            .para span {
+              padding: 4px;
+              cursor: pointer;
+              display: inline-block;
+              padding: 0px 14px;
+            }
+    .hero-slider img {
+                        height: 35vh;
+                    }
+    .slider-content h1 {
+                        font-size: 19px;
+                    }
+    .owl-controls .owl-next, .owl-controls .owl-prev{
+                    top:150px;
+                  }
+    .contact-info{
+                  flex-wrap: wrap;
+                }
+    .contact-link{
+                min-width:80px;
+                margin-top:20px !important;
+              }
+    .shop-area {
+                min-height: 180px;
+            }
+    .shop{
+            min-height:200px;
+            height:200px;
+            }
+    .shop .banner-text {
+                    left: 40%;
+                }
+    .shop .banner-text h3 {
+                        font-size: 17px;
+                        margin: 0px 0px;
+                    }
+    .shop-area .banner-text h2 {
+                            margin: 10px 0px;
+                        }
+    .shop .banner-text {
+                        left: 35%;
+                    }
+    .shop .banner-text h3 {
+                    font-size: 10px;
+                    margin: 0px 0px;
+                }
+    .banner-text h2 {
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+    .banner-text p {
+                    font-size: 12px;
+                    width: 62%;
+                }
+    /************************************** Single Product Area ********************************/
+    .single-product-box .big-img img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+    .single-product-box .small-img img {
+      width: 23%;
+      display: inline-block;
+      padding-left: 2px;
+    }
+  }
+  
