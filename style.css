@@ -1573,11 +1573,15 @@ nav input{
 table{
   width:100%;
   color:#555;
+  min-width:700px;
 }
 table, th ,td{
   border:2px solid #c6c6c6;
   border-collapse: collapse;
   padding: 11px 18px;
+}
+tr:nth-child(even){
+	background:#ddd;
 }
 /* ********************************* END PRIVACY POLICY HERE ************************** */
 /* ********************************* START ABOUT US PAGE HERE ***************************** */
