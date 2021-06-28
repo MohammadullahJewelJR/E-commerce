@@ -249,6 +249,8 @@ nav .wrapper{
   font-size: 20px;
   cursor: pointer;
   display: none;
+  height:40px;
+  line-height:40px;
 }
 .wrapper .btn.close-btn{
   position: absolute;
