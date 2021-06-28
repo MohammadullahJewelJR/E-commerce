@@ -1580,8 +1580,8 @@ table, th ,td{
   border-collapse: collapse;
   padding: 11px 18px;
 }
-tr:nth-child(even){
-	background-color:#ddd;
+tr:nth-child(even) {
+  background-color: #ddd;
 }
 /* ********************************* END PRIVACY POLICY HERE ************************** */
 /* ********************************* START ABOUT US PAGE HERE ***************************** */
