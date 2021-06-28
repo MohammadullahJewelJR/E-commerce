@@ -1581,7 +1581,7 @@ table, th ,td{
   padding: 11px 18px;
 }
 tr:nth-child(even){
-	background:#ddd;
+	background-color:#ddd;
 }
 /* ********************************* END PRIVACY POLICY HERE ************************** */
 /* ********************************* START ABOUT US PAGE HERE ***************************** */
